@@ -1,0 +1,112 @@
+
+/**
+ * Box produc
+ */
+#boxPayment {
+	float:left;
+	background-color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dadada;
+	padding: 0px;
+}
+.jcarousel-clip {
+	overflow:hidden;
+	position:relative;
+	z-index:2;
+	margin:0;
+	padding:0;
+}
+.jcarousel-list {
+	overflow:hidden;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:1;
+	margin:0;
+	padding:0;
+}
+.jcarousel-list li,.jcarousel-item {
+	float:left;
+	list-style:none;
+	width:75px;
+	height:75px;
+}
+.jcarousel-prev,.jcarousel-next {
+	z-index:3;
+	display:none;
+}
+div.jcarousel-container {
+	width:720px;
+	height:193px;
+	overflow:hidden;
+	background:url(img/carousel_bg.png) 0 0 no-repeat;
+	padding:10px 0 0;
+}
+div.jcarousel-clip {
+	width:660px!important;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+	margin:0 0 0 30px;
+}
+ul#mycarousel {
+	height:200px!important;
+	overflow:hidden!important;
+}
+ul#mycarousel li {
+	width:157px!important;
+	float:left;
+	_background:url(img/carousel_item.png) 0 0 no-repeat;
+	position:relative;
+	padding: 0 10px 10px 0;
+}
+ul#mycarousel .jcarousel-item-body {
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}
+
+div.jcarousel-prev {
+	width:15px;
+	height:25px;
+	background:url(img/carousel_prev.png) 0 0 no-repeat;
+	overflow:hidden;
+	position:absolute;
+	left:8px;
+	top:90px;
+	cursor:pointer;
+}
+div.jcarousel-next {
+	width:15px;
+	height:25px;
+	background:url(img/carousel_next.png) 0 0 no-repeat;
+	overflow:hidden;
+	position:absolute;
+	right:8px;
+	top:90px;
+	cursor:pointer;
+}
+div.jcarousel-prev:hover {
+	background:url(img/carousel_prev_hover.png) 0 0 no-repeat;
+}
+div.jcarousel-next:hover {
+	background:url(img/carousel_next_hover.png) 0 0 no-repeat;
+}
+div.jcarousel-prev-disabled {
+	background:url(img/carousel_prev.png) 0 0 no-repeat!important;
+	cursor:default;
+}
+div.jcarousel-next-disabled {
+	background:url(img/carousel_next.png) 0 0 no-repeat!important;
+	cursor:default;
+}
+

@@ -1,0 +1,111 @@
+body{
+	font-family: Tohama;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+#banner{
+	height: 200px;
+	width: 1000px;
+	background: red;
+}
+#menu{
+	width: 1000px;
+	height: 40px;
+	background: #A9F5F2;
+	float: left; 
+}
+#main #left{
+	width: 600px;
+	min-height: 600px;
+	/*background: #FF00FF;*/
+	float: left;
+	margin-right: 100px;
+}
+#main #right{
+	width: 300px;
+	min-height: 600px;
+	background: #2EFEF7;
+	float: left;
+
+}
+#footer{
+	height: 60px;
+	background: #01DF01;
+	text-align: center;
+	width: 1000px;
+	color: #FFF;
+	line-height: 60px;
+	clear: left;
+}
+#menu ul{
+	   margin: 0px;
+	   padding: 0px;
+}
+#menu ul li{
+	list-style:none; /*bỏ các kí tự thứ tự menu*/
+	float: left;
+}
+#menu ul li a {
+	text-decoration: none; /*bỏ dấu ngạch chân dưới chữ*/
+	display: block;
+	line-height: 40px; /*chữ giữa ô*/
+	color: #000000;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc; /*các ô cách nhau*/
+}
+#menu ul li a.active {
+	background: #01DFD7;
+}
+#banner img{
+	width: 1000px;
+	height: 200px;
+	
+}
+#main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+#main #left ul li{
+     list-style:none;
+     clear: left;
+     border-bottom: 2px solid #ccc; /*tạo kẻ chân dưới màu đen*/
+     padding-bottom: 40px;
+
+}
+#main #left ul li img{
+	float: left;
+	margin-left: 0px;
+	margin-right: 20px;
+	width: 150px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+#main #left ul li h2{
+	font-size: 16px;
+}
+#main{
+	margin-top: 50px;
+}
+#main #right .menu_right ul{
+     margin: 0px;
+     padding:0px;
+}
+#main #right .menu_right ul li{
+	list-style:none;
+	/*float: left;*/
+}
+#main #right .menu_right ul a{
+	display: block;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+}
+#main #right .menu_right  h3 {
+	text-align: center;
+}
+
+#main #right .menu_right img{
+	width: 200px;
+	height: 300px;
+}

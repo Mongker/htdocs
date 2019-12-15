@@ -1,0 +1,12 @@
+1. Trong MY_Controller them lay danh sach ho tro truc tuyen va load helper lang va admin/common_lang
+2. Them thu muc languge/english/admin
+3. Update MY_date_helper , viet các function xử lý ngày tháng
+4. Update controller product - them danh gia san pham - sua o action view tinh luot danh gia trung binh
+5. Sua phan views/site/right.php hien thi danh sach ho tro truc tuyen 
+6. Sua views/site/header.php - update link cho menu
+7. Them module lien he
+8. Them module tin tuc o ngoai
+9. Update module transaction trong admin - update muc tim kiem va hien thi du lieu
+10. Them muc quan ly don hang trong admin - hien thi danh sach va tim kiem
+11. Update thong ke trong trang chu admin
+12. Them muc quan ly thanh vien trong admin

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/libraries/cms_nestedset.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/images/balls.gif" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/images/check.gif" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/images/check.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/libs/autocomplete/jquery.autocomplete.js" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/libs/kcfinder" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/public/templates/backend/libs/tinymce" charset="windows-1252" />
+    <file url="PROJECT" charset="windows-1252" />
+  </component>
+</project>
+

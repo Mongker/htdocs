@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Hocphp.infp</title>
+
+<meta name="robots" content="noindex, nofollow" />
+
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="crown/css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" media="screen" />
+
+
+<script type="text/javascript">
+	var admin_url 	= '';
+	var base_url 	= '';
+	var public_url 	= '';
+</script>
+
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/spinner/jquery.mousewheel.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/forms/uniform.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/autogrowtextarea.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.inputlimiter.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/tables/datatable.js"></script>
+<script type="text/javascript" src="crown/js/plugins/tables/tablesort.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/tables/resizable.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.tipsy.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.collapsible.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.progress.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.timeentry.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.colorpicker.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.breadcrumbs.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.sourcerer.js"></script>
+
+<script type="text/javascript" src="crown/js/custom.js"></script>
+
+
+<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script> 
+<script type="text/javascript" src="../js/jquery/chosen/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/scrollTo/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="../js/jquery/number/jquery.number.min.js"></script>
+<script type="text/javascript" src="../js/jquery/formatCurrency/jquery.formatCurrency-1.4.0.min.js"></script>
+<script type="text/javascript" src="../js/jquery/zclip/jquery.zclip.js"></script>
+
+<script type="text/javascript" src="../js/jquery/colorbox/jquery.colorbox.js"></script>
+<link rel="stylesheet" type="text/css" href="../js/jquery/colorbox/colorbox.css" media="screen" />
+
+<script type="text/javascript" src="../js/custom_admin.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+	<!-- Left side content -->
+	<div id="left_content">
+		<div id="leftSide" style="padding-top:30px;">
+		
+		    <!-- Account panel -->
+			
+<div class="sideProfile">
+	<a href="#" title="" class="profileFace"><img width="40" src="images/user.png" /></a>
+	<span>Xin chào: <strong>admin!</strong></span>
+	<span>Hoàng văn Tuyền</span>
+	<div class="clear"></div>
+</div>
+<div class="sidebarSep"></div>		    
+		    <!-- Left navigation -->
+			
+<ul id="menu" class="nav">
+
+			<li class="home">
+		
+			<a href="admin/home.html" class="" >
+				<span>Bảng điều khiển</span>
+				<strong></strong>
+			</a>
+			
+						
+		</li>
+			<li class="tran">
+		
+			<a href="admin/tran.html" class=" exp" >
+				<span>Quản lý bán hàng</span>
+				<strong>2</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/tran.html">
+								Giao dịch							</a>
+						</li>
+											<li >
+							<a href="admin/product_order.html">
+								Đơn hàng sản phẩm							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="product">
+		
+			<a href="admin/product.html" class="active exp" id="current">
+				<span>Sản phẩm</span>
+				<strong>3</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/product.html">
+								Sản phẩm							</a>
+						</li>
+											<li class="this">
+							<a href="admin/cat.html">
+								Danh mục							</a>
+						</li>
+											<li >
+							<a href="admin/comment.html">
+								Phản hồi							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="account">
+		
+			<a href="admin/account.html" class=" exp" >
+				<span>Tài khoản</span>
+				<strong>3</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/admin.html">
+								Ban quản trị							</a>
+						</li>
+											<li >
+							<a href="admin/admin_group.html">
+								Nhóm quản trị							</a>
+						</li>
+											<li >
+							<a href="admin/user.html">
+								Thành viên							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="support">
+		
+			<a href="admin/support.html" class=" exp" >
+				<span>Hỗ trợ và liên hệ</span>
+				<strong>2</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/support.html">
+								Hỗ trợ							</a>
+						</li>
+											<li >
+							<a href="admin/contact.html">
+								Liên hệ							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="content">
+		
+			<a href="admin/content.html" class=" exp" >
+				<span>Nội dung</span>
+				<strong>4</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/slide.html">
+								Slide							</a>
+						</li>
+											<li >
+							<a href="admin/news.html">
+								Tin tức							</a>
+						</li>
+											<li >
+							<a href="admin/info.html">
+								Trang thông tin							</a>
+						</li>
+											<li >
+							<a href="admin/video.html">
+								Video							</a>
+						</li>
+									</ul>
+						
+		</li>
+	
+</ul>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	
+	<!-- Right side -->
+	<div id="rightSide">
+	
+	    <!-- Account panel top -->
+		
+<div class="topNav">
+	<div class="wrapper">
+		<div class="welcome">
+			<span>Xin chào: <b>admin!</b></span>
+		</div>
+		
+		<div class="userNav">
+			<ul>
+				<li><a href="" target="_blank">
+					<img style="margin-top:7px;" src="images/icons/light/home.png" />
+					<span>Trang chủ</span>
+				</a></li>
+				
+				<!-- Logout -->
+				<li><a href="admin/home/logout.html">
+					<img src="images/icons/topnav/logout.png" alt="" />
+					<span>Đăng xuất</span>
+				</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+</div>
+		
+	    <!-- Main content -->
+		<!-- Common -->
+<!-- Title area -->
+<div class="titleArea">
+	<div class="wrapper">
+		<div class="pageTitle">
+			<h5>Danh mục</h5>
+			<span>Quản lý thể loại</span>
+		</div>
+		
+		<div class="horControlB menu_action">
+			<ul>
+				<li><a href="admin/cat/add.html">
+					<img src="images/icons/control/16/add.png" />
+					<span>Thêm mới</span>
+				</a></li>
+				
+				<li><a href="admin/cat.html">
+					<img src="images/icons/control/16/list.png" />
+					<span>Danh sách</span>
+				</a></li>
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="line"></div>
+
+<!-- Message -->
+
+
+
+
+
+
+<!-- Main content wrapper -->
+<div class="wrapper">
+
+	<!-- Static table -->
+	<div class="widget" id='main_content'>
+	
+		<div class="title">
+		    <span class="titleIcon"><input type="checkbox" id="titleCheck" name="titleCheck" /></span>
+			<h6>Danh sách Danh mục</h6>
+			<div class="num f12">Tổng số: <b>18</b></div>
+		</div>
+		
+		<table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable taskWidget" id="checkAll">
+			<thead>
+				<tr>
+				    <td style="width:21px;"><img src="images/icons/tableArrows.png" /></td>
+					<td>Tên</td>
+					<td style="width:150px;">Hành động</td>
+				</tr>
+			</thead>
+			
+			<tfoot class="auto_check_pages">
+				<tr>
+					<td colspan="3">
+					     <div class="list_action itemActions">
+								<a href="#submit" id="submit" class="button blueB" url="admin/cat/del_all.html">
+									<span style='color:white;'>Xóa hết</span>
+								</a>
+						 </div>
+							
+					     <div class='pagination'>
+			               &nbsp;<strong>1</strong>&nbsp;<a href="admin/cat/index/10">2</a>&nbsp;<a href="admin/cat/index/10">Trang kế tiếp</a>&nbsp;			            </div>
+					</td>
+				</tr>
+			</tfoot>
+			
+			<tbody>
+			     			     <tr class='row_18'>
+			        <td><input type="checkbox" name="id[]" value="18" /></td>
+					
+					<td>Toshiba</td>  
+					<td class="option">
+						<a href="admin/cat/edit/18.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/18.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_8'>
+			        <td><input type="checkbox" name="id[]" value="8" /></td>
+					
+					<td>HP</td>  
+					<td class="option">
+						<a href="admin/cat/edit/8.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/8.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_17'>
+			        <td><input type="checkbox" name="id[]" value="17" /></td>
+					
+					<td>Samsung</td>  
+					<td class="option">
+						<a href="admin/cat/edit/17.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/17.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_12'>
+			        <td><input type="checkbox" name="id[]" value="12" /></td>
+					
+					<td>HTC</td>  
+					<td class="option">
+						<a href="admin/cat/edit/12.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/12.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_7'>
+			        <td><input type="checkbox" name="id[]" value="7" /></td>
+					
+					<td>Dell</td>  
+					<td class="option">
+						<a href="admin/cat/edit/7.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/7.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_11'>
+			        <td><input type="checkbox" name="id[]" value="11" /></td>
+					
+					<td>BlackBerry</td>  
+					<td class="option">
+						<a href="admin/cat/edit/11.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/11.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_16'>
+			        <td><input type="checkbox" name="id[]" value="16" /></td>
+					
+					<td>Panasonic</td>  
+					<td class="option">
+						<a href="admin/cat/edit/16.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/16.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_3'>
+			        <td><input type="checkbox" name="id[]" value="3" /></td>
+					
+					<td>Tivi</td>  
+					<td class="option">
+						<a href="admin/cat/edit/3.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/3.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_6'>
+			        <td><input type="checkbox" name="id[]" value="6" /></td>
+					
+					<td>Asus</td>  
+					<td class="option">
+						<a href="admin/cat/edit/6.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/6.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+							     <tr class='row_15'>
+			        <td><input type="checkbox" name="id[]" value="15" /></td>
+					
+					<td>LG</td>  
+					<td class="option">
+						<a href="admin/cat/edit/15.html" title="Chỉnh sửa" class="tipS ">
+							<img src="images/icons/color/edit.png" />
+						</a>
+						
+						<a href="admin/cat/del/15.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						</a>
+					</td>
+				</tr>
+								
+			</tbody>
+		</table>
+	</div>
+</div>
+        		<div class="clear mt30"></div>
+		
+	    <!-- Footer -->
+	    <div id="footer">
+	    		        <div class="wrapper">
+	        	<div>Bản quyền © 2012-2016 hocphp.info</div>
+	        </div>
+	     </div>
+	</div>
+	<div class="clear"></div>
+</body>
+</html>
