@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html,body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+img{ 
+border:none;
+}
+a {
+    text-decoration: none;
+	color:#000000;
+}
+ol, ul {
+    list-style: none;
+}
+h1
+{
+	font-size:18px;
+	color:#69A505 ;
+}
+.req{color:maroon}
+.error{color:red}
+.clear{clear:both}

@@ -1,0 +1,733 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Hocphp.info</title>
+
+<meta name="robots" content="noindex, nofollow" />
+
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="crown/css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" media="screen" />
+
+
+<script type="text/javascript">
+	var admin_url 	= '';
+	var base_url 	= '';
+	var public_url 	= '';
+</script>
+
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/spinner/jquery.mousewheel.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/forms/uniform.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/autogrowtextarea.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/forms/jquery.inputlimiter.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/tables/datatable.js"></script>
+<script type="text/javascript" src="crown/js/plugins/tables/tablesort.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/tables/resizable.min.js"></script>
+
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.tipsy.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.collapsible.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.progress.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.timeentry.min.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.colorpicker.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.breadcrumbs.js"></script>
+<script type="text/javascript" src="crown/js/plugins/ui/jquery.sourcerer.js"></script>
+
+<script type="text/javascript" src="crown/js/custom.js"></script>
+
+
+<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script> 
+<script type="text/javascript" src="../js/jquery/chosen/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/scrollTo/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="../js/jquery/number/jquery.number.min.js"></script>
+<script type="text/javascript" src="../js/jquery/formatCurrency/jquery.formatCurrency-1.4.0.min.js"></script>
+<script type="text/javascript" src="../js/jquery/zclip/jquery.zclip.js"></script>
+
+<script type="text/javascript" src="../js/jquery/colorbox/jquery.colorbox.js"></script>
+<link rel="stylesheet" type="text/css" href="../js/jquery/colorbox/colorbox.css" media="screen" />
+
+<script type="text/javascript" src="../js/custom_admin.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+	<!-- Left side content -->
+	<div id="left_content">
+		<div id="leftSide" style="padding-top:30px;">
+		
+		    <!-- Account panel -->
+			
+<div class="sideProfile">
+	<a href="#" title="" class="profileFace"><img width="40" src="images/user.png" /></a>
+	<span>Xin chào: <strong>admin!</strong></span>
+	<span>Hoàng văn Tuyền</span>
+	<div class="clear"></div>
+</div>
+<div class="sidebarSep"></div>		    
+		    <!-- Left navigation -->
+			
+<ul id="menu" class="nav">
+
+			<li class="home">
+		
+			<a href="admin/home.html" class="active" id="current">
+				<span>Bảng điều khiển</span>
+				<strong></strong>
+			</a>
+			
+						
+		</li>
+			<li class="tran">
+		
+			<a href="admin/tran.html" class=" exp" >
+				<span>Quản lý bán hàng</span>
+				<strong>2</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/tran.html">
+								Giao dịch							</a>
+						</li>
+											<li >
+							<a href="admin/product_order.html">
+								Đơn hàng sản phẩm							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="product">
+		
+			<a href="admin/product.html" class=" exp" >
+				<span>Sản phẩm</span>
+				<strong>3</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/product.html">
+								Sản phẩm							</a>
+						</li>
+											<li >
+							<a href="admin/cat.html">
+								Danh mục							</a>
+						</li>
+											<li >
+							<a href="admin/comment.html">
+								Phản hồi							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="account">
+		
+			<a href="admin/account.html" class=" exp" >
+				<span>Tài khoản</span>
+				<strong>3</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/admin.html">
+								Ban quản trị							</a>
+						</li>
+											<li >
+							<a href="admin/admin_group.html">
+								Nhóm quản trị							</a>
+						</li>
+											<li >
+							<a href="admin/user.html">
+								Thành viên							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="support">
+		
+			<a href="admin/support.html" class=" exp" >
+				<span>Hỗ trợ và liên hệ</span>
+				<strong>2</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/support.html">
+								Hỗ trợ							</a>
+						</li>
+											<li >
+							<a href="admin/contact.html">
+								Liên hệ							</a>
+						</li>
+									</ul>
+						
+		</li>
+			<li class="content">
+		
+			<a href="admin/content.html" class=" exp" >
+				<span>Nội dung</span>
+				<strong>4</strong>
+			</a>
+			
+							<ul class="sub">
+											<li >
+							<a href="admin/slide.html">
+								Slide							</a>
+						</li>
+											<li >
+							<a href="admin/news.html">
+								Tin tức							</a>
+						</li>
+											<li >
+							<a href="admin/info.html">
+								Trang thông tin							</a>
+						</li>
+											<li >
+							<a href="admin/video.html">
+								Video							</a>
+						</li>
+									</ul>
+						
+		</li>
+	
+</ul>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	
+	<!-- Right side -->
+	<div id="rightSide">
+	
+	    <!-- Account panel top -->
+		
+<div class="topNav">
+	<div class="wrapper">
+		<div class="welcome">
+			<span>Xin chào: <b>admin!</b></span>
+		</div>
+		
+		<div class="userNav">
+			<ul>
+				<li><a href="" target="_blank">
+					<img style="margin-top:7px;" src="images/icons/light/home.png" />
+					<span>Trang chủ</span>
+				</a></li>
+				
+				<!-- Logout -->
+				<li><a href="admin/home/logout.html">
+					<img src="images/icons/topnav/logout.png" alt="" />
+					<span>Đăng xuất</span>
+				</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+</div>
+		
+	    <!-- Main content -->
+		
+<!-- Title area -->
+<div class="titleArea">
+	<div class="wrapper">
+		<div class="pageTitle">
+			<h5>Bảng điều khiển</h5>
+			<span>Trang quản lý hệ thống</span>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="line"></div>
+
+
+<!-- Message -->
+
+
+<!-- Main content wrapper -->
+<div class="wrapper">
+	
+	<div class="widgets">
+	     <!-- Stats -->
+		
+<!-- Amount -->
+<div class="oneTwo">
+	<div class="widget">
+		<div class="title">
+			<img src="images/icons/dark/money.png" class="titleIcon" />
+			<h6>Doanh số</h6>
+		</div>
+		
+		<table cellpadding="0" cellspacing="0" width="100%" class="sTable myTable">
+			<tbody>
+				
+					<tr>
+							<td class="fontB blue f13">Tổng doanh số</td>
+							<td class="textR webStatsLink red" style="width:120px;">44,000,000 đ</td>
+					</tr>
+				    
+				    <tr>
+							<td class="fontB blue f13">Doanh số hôm nay</td>
+							<td class="textR webStatsLink red" style="width:120px;">0 đ</td>
+					</tr>
+					
+				    <tr>
+							<td class="fontB blue f13">Doanh số theo tháng</td>
+							<td class="textR webStatsLink red" style="width:120px;">
+							0 đ
+							</td>
+					</tr>
+				    
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+<!-- User -->
+<div class="oneTwo">
+	<div class="widget">
+		<div class="title">
+			<img src="images/icons/dark/users.png" class="titleIcon" />
+			<h6>Thống kê dữ liệu</h6>
+		</div>
+		
+		<table cellpadding="0" cellspacing="0" width="100%" class="sTable myTable">
+			<tbody>
+				
+				<tr>
+					<td>
+						<div class="left">Tổng số gia dịch</div>
+						<div class="right f11"><a href="admin/tran.html">Chi tiết</a></div>
+					</td>
+					
+					<td class="textC webStatsLink">
+						15					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<div class="left">Tổng số sản phẩm</div>
+						<div class="right f11"><a href="admin/product.html">Chi tiết</a></div>
+					</td>
+					
+					<td class="textC webStatsLink">
+						8					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<div class="left">Tổng số bài viết</div>
+						<div class="right f11"><a href="admin/news.html">Chi tiết</a></div>
+					</td>
+					
+					<td class="textC webStatsLink">
+						4					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<div class="left">Tổng số thành viên</div>
+						<div class="right f11"><a href="admin/user.html">Chi tiết</a></div>
+					</td>
+					
+					<td class="textC webStatsLink">
+						2					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="left">Tổng số liên hệ</div>
+						<div class="right f11"><a href="admin/contact.html">Chi tiết</a></div>
+					</td>
+					
+					<td class="textC webStatsLink">
+						0					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+		<div class="clear"></div>
+		
+		<!-- Giao dich thanh cong gan day nhat -->
+		
+	<div class="widget">
+		<div class="title">
+			<span class="titleIcon"><input type="checkbox" id="titleCheck" name="titleCheck" /></span>
+			<h6>Danh sách Giao dịch</h6>
+		</div>
+		
+		<table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable" id="checkAll">
+			
+			
+			<thead>
+				<tr>
+					<td style="width:10px;"><img src="images/icons/tableArrows.png" /></td>
+					<td style="width:60px;">Mã số</td>
+					<td style="width:75px;">Thành viên</td>
+					<td style="width:90px;">Số tiền</td>
+					<td>Hình thức</td>
+					<td style="width:100px;">Giao dịch</td>
+					<td style="width:75px;">Ngày tạo</td>
+					<td style="width:55px;">Hành động</td>
+				</tr>
+			</thead>
+			
+ 			<tfoot class="auto_check_pages">
+				<tr>
+					<td colspan="8">
+						 <div class="list_action itemActions">
+								<a href="#submit" id="submit" class="button blueB" url="admin/tran/del_all.html">
+									<span style='color:white;'>Xóa hết</span>
+								</a>
+						 </div>
+					</td>
+				</tr>
+			</tfoot>
+			
+			<tbody class="list_item">
+							<tr>
+					<td><input type="checkbox" name="id[]" value="21" /></td>
+					
+					<td class="textC">21</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">10,000,000</td>
+					
+					<td>
+					dathang					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">16-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/21.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/21.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="20" /></td>
+					
+					<td class="textC">20</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/20.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/20.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="19" /></td>
+					
+					<td class="textC">19</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/19.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/19.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="18" /></td>
+					
+					<td class="textC">18</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/18.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/18.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="17" /></td>
+					
+					<td class="textC">17</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/17.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/17.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="16" /></td>
+					
+					<td class="textC">16</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/16.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/16.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="15" /></td>
+					
+					<td class="textC">15</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">5,000,000</td>
+					
+					<td>
+					baokim					</td>
+					
+					
+					<td class="status textC">
+						<span class="pending">
+						Chờ xử lý						</span>
+					</td>
+					
+					<td class="textC">15-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/15.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/15.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="14" /></td>
+					
+					<td class="textC">14</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">10,000,000</td>
+					
+					<td>
+					nganluong					</td>
+					
+					
+					<td class="status textC">
+						<span class="completed">
+						Thành công						</span>
+					</td>
+					
+					<td class="textC">14-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/14.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/14.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="13" /></td>
+					
+					<td class="textC">13</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">20,000,000</td>
+					
+					<td>
+					nganluong					</td>
+					
+					
+					<td class="status textC">
+						<span class="completed">
+						Thành công						</span>
+					</td>
+					
+					<td class="textC">13-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/13.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/13.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+							<tr>
+					<td><input type="checkbox" name="id[]" value="12" /></td>
+					
+					<td class="textC">12</td>
+					
+					<td>
+						Hoàng văn Tuyền					</td>
+					
+					<td class="textR red">10,000,000</td>
+					
+					<td>
+					nganluong					</td>
+					
+					
+					<td class="status textC">
+						<span class="completed">
+						Thành công						</span>
+					</td>
+					
+					<td class="textC">13-08-2014</td>
+					
+					<td class="textC">
+							<a href="admin/tran/view/12.html" class="lightbox">
+								<img src="images/icons/color/view.png" />
+							</a>
+							
+						   <a href="admin/tran/del/12.html" title="Xóa" class="tipS verify_action" >
+						    <img src="images/icons/color/delete.png" />
+						   </a>
+					</td>
+				</tr>
+						</tbody>
+			
+		</table>
+	</div>
+
+        	</div>
+	
+</div>
+		<div class="clear mt30"></div>
+		
+	    <!-- Footer -->
+	    <div id="footer">
+	    		        <div class="wrapper">
+
+	        	<div>Bản quyền © 2012-2016 Hocphp.info</div>
+	        </div>
+	     </div>
+	</div>
+	<div class="clear"></div>
+</body>
+</html>
