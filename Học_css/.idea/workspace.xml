@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LO2-test1" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="ServiceViewManager">
@@ -51,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577017876978</updated>
       <workItem from="1577017880617" duration="8615000" />
+      <workItem from="1577102519471" duration="14000" />
     </task>
     <servers />
   </component>
@@ -58,13 +59,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1577102532192">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1577102532192" />
     <state x="184" y="26" width="1175" height="716" key="SettingsEditor" timestamp="1577020212955">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" width="1175" height="716" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1577020212955" />
-    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1577017880673">
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1577102522926">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1577017880673" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1577102522925" />
   </component>
 </project>
