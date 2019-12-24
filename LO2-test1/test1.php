@@ -13,7 +13,7 @@
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "LO2-test1";
+		$dbname = "mai";
 		$id=(isset($_GET['id']))?$_GET['id']:0;
 
 		// Create connection
@@ -38,8 +38,8 @@
 	$sql="SELECT*FROM test1";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
-		echo '<h1 align="center">DANH SÁCH SINH VIÊN</h1>';
-	    echo "<table align='center' border='1' ><tr><th>STT</th><th>Họ Tên</th><th>Ngày sinh</th><th>Giới tính</th><th>Địa chỉ</th><th>Chức năng</th></tr>";
+		echo '<h1>DANH SÁCH SINH VIÊN</h1>';
+	    echo "<table border='1' ><tr><th>STT</th><th>Họ Tên</th><th>Ngày sinh</th><th>Giới tính</th><th>Địa chỉ</th><th>Chức năng</th></tr>";
 	    // output data of each row
 	    $i=1;
 
@@ -67,6 +67,9 @@
 	}
 	$conn->close();
  	?>
+
 	
 </body>
 </html>
+
+
