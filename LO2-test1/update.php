@@ -1,83 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Sửa dữ liệu</title>
+    <title></title>
 </head>
 <body>
-	<?php 
-	 //kết nối database
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "mai";
-		
-		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		// Check connection
-		if ($conn->connect_error) {
-		    die("Connection failed: " . $conn->connect_error);
-		}
-		$id=(isset($_GET['id']))?$_GET['id']:0;
+<H3>CẬP NHẬT DỮ LIỆU</H3>
+<?php
+$id=$_GET['id'];
+//kết nối cơ sở dữ liệu
+$username = "root"; // Khai báo username
+$password = "";      // Khai báo password
+$server   = "localhost";   // Khai báo server
+$dbname   = "LO2-test1";      // Khai báo database     // Khai báo database
+$conn=mysqli_connect($server,$username,$password,$dbname) or die('không kết nối được database');
+$sql="SELECT * From test1 Where id='$id'";
+$kq=mysqli_query($conn,$sql);
+$ar=mysqli_fetch_array($kq);
+?>
+<form action="xulyupdate.php" method="post">
+    <table>
+        <tr>
+            <td><input type="hidden" name="id" value="<?php echo $id ?>"></td>
+        </tr>
+        <tr>
+            <th>Họ tên:</th>
+            <td><input type="text" name="hoten" value="<?php echo $ar['hoten'] ?>"></td>
+        </tr>
 
-//		$sql = "SELECT *FROM test1 where id =".$id;
-	    $result = $conn->query($sql);
-	    if ($result->num_rows > 0) {
+        <tr>
+            <th>Ngày sinh:</th>
+            <td><input type="date" name="ngaysinh" value="<?php echo $ar['ngaysinh'] ?>"></td>
+        </tr>
 
-	    	while($row = $result->fetch_assoc()) {
-	    	?>
-	    	<form action="x" method="post" enctype="multipart/form-data">
-		
-				<table >
-					<tr>
-						<th></th>
-						<td> <input type="hidden" name="id" value="<?= $row['id'] ?>">
-						</td>
-					</tr>
-					<tr>
-						<th>Họ tên</th>
-						<td><input type="text" name="hoten" value="<?= $row['hoten'] ?>"></td>
-					</tr>
+        <tr>
+            <th>Giới tính</th>
+            <td>
+                <?php
+                if ($ar['gioitinh']=="Nam") {
+                    ?>
+                    <input type="radio" name="gioitinh" value="Nữ" >Nữ
+                    <input type="radio" name="gioitinh" value="Nam" checked="">Nam
 
-					<tr>
-						<th>Ngày sinh</th>
-						<td><input type="date" name="ngaysinh"value="<?= $row['ngaysinh'] ?>"></td>
-					</tr>
+                    <?php
+                }else {
+                    ?>
+                    <input type="radio" name="gioitinh" value="Nữ" checked="">Nữ
+                    <input type="radio" name="gioitinh" value="Nam" >Nam
 
-					<tr>
-						<th>Giới tính</th>
-						<td><?php 
-                              if ($row['gioitinh']=="Nam") {
-                              ?>   
-                              <input type="radio" name="gioitinh" value="Nữ" >Nữ
-                              <input type="radio" name="gioitinh" value="Nam" checked="">Nam
-                              
-                              <?php
-                              }else {
-                              ?>
-                              <input type="radio" name="gioitinh" value="Nữ" checked="">Nữ
-                              <input type="radio" name="gioitinh" value="Nam" >Nam
-                              
-                              <?php 
-                              }
-                               ?></td>
-					</tr>
-					<tr>
-						<th>Địa chỉ</th>
-						<td><textarea style="width: 200px; height: 50px" name="diachi"><?= $row['diachi'] ?></textarea></td>
-					</tr>
-					<tr><td><input type="submit" name="sua" value="Sửa"></td>
-					</tr>
-				</table>
-			</form>
-	 <?php 
+                    <?php
+                }
+                ?>
+            </td>
+        </tr>
 
-	    }
-	    // echo "</table>";
-	} else {
-	    echo "0 results";
-	}
-	$conn->close();
- 	?>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><textarea style="width: 200px; height: 50px" name="diachi"><?php echo $ar['diachi'] ?></textarea></td>
+        </tr>
+    </table>
+    <button type="submit">Sửa</button>
+</form>
 </body>
 </html>

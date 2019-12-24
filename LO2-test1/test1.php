@@ -13,7 +13,7 @@
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "mai";
+		$dbname = "LO2-test1";
 		$id=(isset($_GET['id']))?$_GET['id']:0;
 
 		// Create connection
