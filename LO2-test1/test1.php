@@ -26,7 +26,7 @@
 	//xóa
 	$sql_delete="";
 	$sql_delete = "DELETE FROM test1 WHERE id= ".$id;
-
+	// echo $sql_delete;
 		if ($conn->query($sql_delete) === TRUE) {
 			// echo '<script type="text/javascript">alert("Bạn có chắc chắn muốn xóa ?")</script>';
 		    
