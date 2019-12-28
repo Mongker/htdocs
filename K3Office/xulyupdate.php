@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0.5 url=http://localhost/LO2-test1/test1.php" >
+    <meta http-equiv="refresh" content="0.5 url=http://localhost/K3Office/test1.php" >
     <title></title>
 </head>
 <body>
@@ -16,11 +16,11 @@ $diachi =$_POST['diachi'];
 $username = "root"; // Khai báo username
 $password = "";      // Khai báo password
 $server   = "localhost";   // Khai báo server
-$dbname   = "LO2-test1";      // Khai báo database
+$dbname   = "K3Office";      // Khai báo database
 $conn=mysqli_connect($server,$username,$password,$dbname) or die('không kết nối được database');
-$sql="UPDATE test1 SET hoten='$hoten', ngaysinh='$ngaysinh', gioitinh='$gioitinh', diachi='$diachi' Where id='$id'";
+$sql="UPDATE K3OfficeExcel SET hoten='$hoten', ngaysinh='$ngaysinh', gioitinh='$gioitinh', diachi='$diachi' Where id='$id'";
 if ($kq) {
-    header("http://localhost/LO2-test1/test1.php");
+    header("http://localhost/K3Office/test1.php");
 }
 ?>
 </body>
