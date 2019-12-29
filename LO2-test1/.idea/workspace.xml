@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588dae76-9594-46b4-8e7c-5831b74669b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../K3Office/models/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/models/data_delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/models/data_insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/models/data_select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/style/boostrap4_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/style/boostrap4_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/style/view_insert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/view_insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/view_insert2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K3Office/views/view_select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K3Office/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/../K3Office/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K3Office/test1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../K3Office/test1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xulyupdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/xulyupdate.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,18 +55,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -75,6 +88,7 @@
       <workItem from="1577125599023" duration="213000" />
       <workItem from="1577161945234" duration="3535000" />
       <workItem from="1577180576818" duration="1256000" />
+      <workItem from="1577660144049" duration="423000" />
     </task>
     <servers />
   </component>

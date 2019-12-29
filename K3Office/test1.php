@@ -57,7 +57,7 @@
 	    			</td>
 		    		<?php $i++; ?>
 
-		    	</tr>
+		    	    </tr>
     <?php
 
 	    }
@@ -67,8 +67,6 @@
 	}
 	$conn->close();
  	?>
-
-
 </body>
 </html>
 

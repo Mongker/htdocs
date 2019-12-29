@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7516d97-bcab-4849-b2a2-99ea4b2bc07d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO2-test1/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/LO2-test1/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO2-test1/test1.php" beforeDir="false" afterPath="$PROJECT_DIR$/LO2-test1/test1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO2-test1/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/LO2-test1/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO2-test1/xulyupdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/LO2-test1/xulyupdate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K3Office/models/data_insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K3Office/views/view_insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K3Office/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/K3Office/insert.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,15 +55,15 @@
       <recent name="C:\xampp\htdocs" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -81,6 +80,7 @@
       <workItem from="1577125814691" duration="503000" />
       <workItem from="1577162969925" duration="2491000" />
       <workItem from="1577505803681" duration="5967000" />
+      <workItem from="1577654036382" duration="17000" />
     </task>
     <servers />
   </component>
