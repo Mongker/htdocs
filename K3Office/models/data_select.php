@@ -35,7 +35,7 @@ if ($result->num_rows > 0) {
                 <a href="../models/data_delete.php?id=<?= $row["id"] ?>">Xoá</a>
             </td>
             <td align="center">
-                <a href="update.php?id=<?= $row["id"] ?>">Sửa</a>
+                <a href="../views/view_updata.php?id=<?= $row["id"] ?>">Sửa</a>
             </td>
             <?php $i++; ?>
 

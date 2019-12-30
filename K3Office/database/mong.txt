@@ -1,0 +1,6 @@
+Đầu thẻ:		 dauthe
+Ngày làm:	       	ngaylam
+Tên khách hàng:		 tenkhachang
+Số thẻ khách: 		sothekhach
+Số tiền làm: 		sotienlam
+Phí ngân hàng: 		phinganhang

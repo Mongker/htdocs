@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/K3Office/views/view_insert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/K3Office/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/K3Office/insert.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,15 +54,15 @@
       <recent name="C:\xampp\htdocs" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -81,6 +80,7 @@
       <workItem from="1577162969925" duration="2491000" />
       <workItem from="1577505803681" duration="5967000" />
       <workItem from="1577654036382" duration="17000" />
+      <workItem from="1577667930324" duration="22000" />
     </task>
     <servers />
   </component>
@@ -101,6 +101,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="420" y="269" key="FileChooserDialogImpl" timestamp="1577667950601">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="420" y="269" key="FileChooserDialogImpl/0.0.1280.1024@0.0.1280.1024" timestamp="1577667950601" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1577507473795">
       <screen x="0" y="0" width="1280" height="1024" />
     </state>
