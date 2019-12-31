@@ -10,7 +10,6 @@
 </head>
 <body>
     <?php require('view_insert2.php') ?>
-    <h5 align="center">-------------------------------------------------------------------------------</h5>
     <div class="container" align="center" >
         <?php require('../models/data_select.php') ?>
     </div>
