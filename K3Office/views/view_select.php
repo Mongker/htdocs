@@ -8,9 +8,8 @@
     <?php require ('./style/boostrap4_1.html')?>
     <title>Hiển thị danh sách</title>
 </head>
-<body>
+<body style="background: #fff8d2 ">
     <?php require('view_insert2.php') ?>
-    <h5 align="center">-------------------------------------------------------------------------------</h5>
     <div class="container" align="center" >
         <?php require('../models/data_select.php') ?>
     </div>
