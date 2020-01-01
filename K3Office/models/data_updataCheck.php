@@ -13,7 +13,7 @@ $conn = mysqli_connect($server,$username,$password,$dbname) or die('không kết
 $sql_update ="UPDATE K3OfficeExcel SET hoten='$hoten', ngaysinh='$ngaysinh', gioitinh='$gioitinh', diachi='$diachi' Where id='$id'";
 $kq = $conn->query($sql_update);
 if($kq){
-    require('../views/view_select.php');
+    require('../views/QuayLai.html');
 }
 $conn->close();
 ?>
