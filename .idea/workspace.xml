@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7516d97-bcab-4849-b2a2-99ea4b2bc07d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/K3Office/models/data_insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K3Office/views/view_insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K3Office/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/K3Office/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K3Office/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K3Office/models/data_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K3Office/views/Visa/LoadingLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K3Office/doc/visa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K3Office/models/Visa/data_insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/K3Office/models/Visa/data_insert.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/K3Office" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,15 +57,15 @@
       <recent name="C:\xampp\htdocs" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -81,6 +84,7 @@
       <workItem from="1577505803681" duration="5967000" />
       <workItem from="1577654036382" duration="17000" />
       <workItem from="1577667930324" duration="22000" />
+      <workItem from="1577866253950" duration="29000" />
     </task>
     <servers />
   </component>

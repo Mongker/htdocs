@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 $sql="SELECT*FROM K3OfficeExcel";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-    echo '<h1>DANH SÁCH SINH VIÊN</h1>';
+    echo '<h1 align="center">DANH SÁCH SINH VIÊN</h1>';
     echo "<table border='1' ><tr><th>STT</th><th>Họ Tên</th><th>Ngày sinh</th><th>Giới tính</th><th>Địa chỉ</th><th>Xoá</th><th>Chỉnh sửa</th></th></tr>";
     // output data of each row
     $i=1;

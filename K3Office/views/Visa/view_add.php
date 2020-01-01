@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <?php require('../style/boostrap4_1.html')?>
-    <link rel="stylesheet" href="../style/view_insert.css">
-    <title>Thêm hóa đơn</title>
-
-</head>
-<body>
 <div class="container">
     <div align="center">
         <h1 style="text-align: center; color: red" class="textNhapNhay">Thêm một hoán đơn</h1>
@@ -39,7 +29,7 @@
                 <tr >
                     <td><h3 class="text">Phí % ngân hàng thu:</h3></td>
                     <td><input type="text" name="nht"></td>
-<!--                    pattern="[0-9]+([,\.][0-9]+)?"-->
+                    <!--                    pattern="[0-9]+([,\.][0-9]+)?"-->
                 </tr>
                 <tr >
                     <td><h3 class="text">Phí % thu khách hàng:</h3></td>
@@ -55,6 +45,3 @@
         </form>
     </div>
 </div>
-<?php require('../style/boostrap4_2.html') ?>
-</body>
-</html>
