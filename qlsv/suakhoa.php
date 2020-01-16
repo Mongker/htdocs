@@ -11,7 +11,7 @@ $id=$_GET['id'];
 $username = "root"; // Khai báo username
 $password = "";      // Khai báo password
 $server   = "localhost";   // Khai báo server
-$dbname   = "qlsv";      // Khai báo database     // Khai báo database
+$dbname   = "qlsvl02";      // Khai báo database     // Khai báo database
 $conn=mysqli_connect($server,$username,$password,$dbname) or die('không kết nối được database');
 $sql="SELECT * From khoa Where id='$id'";
 $kq=mysqli_query($conn,$sql);

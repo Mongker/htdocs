@@ -9,13 +9,14 @@
 	<table border="1" align="center">
 	<?php 
 	  $id=(isset($_GET['id']))? $_GET['id']:0;
-	  $conn = new mysqli("localhost","root","","qlsv");
+	  $conn = new mysqli("localhost","root","","qlsvl02");
 	  if ($conn-> connect_error) {
 	  	die("connection failed".$conn-> connect_error);
 	  }
+	  mysqli_query($conn,"SET CHARACTER  SET 'utf8'");
 	  // echo "Connect sucessfuly"
 	  	$sql_delete="";
-		$sql_delete = "DELETE FROM khoa WHERE id= ".$id;
+		$sql_delete = "DELETE FROM khoa WHERE khoaid= ".$khoaid;
 		// echo $sql_delete;
 			if ($conn->query($sql_delete) === TRUE) {
 				// echo '<script type="text/javascript">alert("Bạn có chắc chắn muốn xóa ?")</script>';

@@ -62,7 +62,7 @@
                          <td>Giới tính</td>
                          <td>
                               <?php 
-                              if ($row['sex']=="Nam") {
+                              if ($row['sex']=="Nam") {                                                                    
                               ?>   
                               <input type="radio" name="sex" value="Nam" checked="">Nam
                               <input type="radio" name="sex" value="Nữ" >Nữ 

@@ -13,7 +13,7 @@
         $servername= "localhost";
         $username = "root";
         $password = "";
-        $dbname = "qlsv";
+        $dbname = "qlsvl02";
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
         // Check connection

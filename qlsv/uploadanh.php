@@ -53,7 +53,7 @@
 		    $duongdanfile="http://localhost/QLSV/uploads/".basename( $_FILES["fileToUpload"]["name"]);
 	        // echo '<br> duongdanfile :' .$duongdanfile.'<br>';
 	        // echo '<img src="'.$duongdanfile.'" alt="">';
-	        $avarta=$duongdanfile;
+	        $anh=$duongdanfile;
 			//insert
 
 	 ?>

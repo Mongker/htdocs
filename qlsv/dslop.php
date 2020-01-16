@@ -8,10 +8,10 @@
 </head>
 <body>
 	<form method="post" action="xoanhieu.php">
-	<table border="1" align="center" class="table-primary table-danger" >
+	<table border="1" align="center"  >
 	<?php 
 	  // $id=(isset($_GET['id']))? $_GET['id']:0;
-	  $conn = new mysqli("localhost","root","","qlsv");
+	  $conn = new mysqli("localhost","root","","qlsvl02");
 	  if ($conn-> connect_error) {
 	  	die("connection failed".$conn-> connect_error);
 	  }

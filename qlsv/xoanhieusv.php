@@ -30,9 +30,9 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }// echo "Connected successfully";
-		$sql_del = "DELETE FROM lop WHERE id IN(".$strIn.")";
+		$sql_del = "DELETE FROM sinhvien WHERE id IN(".$strIn.")";
 				$result=$conn->query($sql_del);
-				header('Location: dslop.php');
+				header('Location: dssv.php');
 			    
 		
 	 ?>

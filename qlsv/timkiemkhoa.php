@@ -30,7 +30,7 @@
                 $servername = "localhost";
                 $username = "root";
                 $password = "";
-                $dbname = "qlsv";
+                $dbname = "qlsvl02";
                 $id=(isset($_GET['id']))?$_GET['id']:0;
 
                 // Create connection

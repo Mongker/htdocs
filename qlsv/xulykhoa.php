@@ -14,7 +14,7 @@ $khoa= $_POST['khoa'];
 $username = "root"; // Khai báo username
 $password = "";      // Khai báo password
 $server   = "localhost";   // Khai báo server
-$dbname   = "qlsv";      // Khai báo database
+$dbname   = "qlsvl02";      // Khai báo database
 $conn=mysqli_connect($server,$username,$password,$dbname) or die('không kết nối được database');
 $sql_update="UPDATE khoa SET khoa='$khoa' Where id='$id'";
 $conn->query($sql_update);

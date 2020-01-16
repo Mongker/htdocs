@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3564227-a10c-4942-ae70-f9d5f60c308e" name="Default Changelist" comment="" />
+    <list default="true" id="a3564227-a10c-4942-ae70-f9d5f60c308e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bt_bootstrap/danhsach.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLBanHangOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QLBanHangOnline/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dskhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/dskhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dslop.php" beforeDir="false" afterPath="$PROJECT_DIR$/dslop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dssv.php" beforeDir="false" afterPath="$PROJECT_DIR$/dssv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suakhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/suakhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themkhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/themkhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themlop.php" beforeDir="false" afterPath="$PROJECT_DIR$/themlop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themsv.php" beforeDir="false" afterPath="$PROJECT_DIR$/themsv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timkiemkhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/timkiemkhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadanh.php" beforeDir="false" afterPath="$PROJECT_DIR$/uploadanh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xoalop.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoalop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xoanhieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoanhieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xulykhoa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xulykhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/xulykhoa.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,17 +44,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QLBanHangOnline" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -53,11 +78,26 @@
       <workItem from="1577332735234" duration="44000" />
       <workItem from="1577755899271" duration="7000" />
       <workItem from="1578124399460" duration="205000" />
+      <workItem from="1578489495969" duration="1366000" />
+      <workItem from="1578491261605" duration="5698000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577332777300">
@@ -68,5 +108,16 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1577755903155" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/dssv.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

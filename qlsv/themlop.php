@@ -13,7 +13,7 @@
         $servername= "localhost";
         $username = "root";
         $password = "";
-        $dbname = "qlsv";
+        $dbname = "qlsvl02";
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
         // Check connection
@@ -22,7 +22,7 @@
         }// echo "Connected successfully";
         
         //insert dữ liệu
-        $sql_insert="insert into lop values(null,'".$lop."','".$khoa."') ";
+        $sql_insert="insert into lop,khoa values(null,'".$lop."','".$khoa.$id."') ";
             if ($lop!=''  ) {
                $conn->query($sql_insert);
                echo' <script type="text/javascript">alert("Thêm mới thành công !");</script>';
@@ -33,7 +33,7 @@
         $conn->close();
 
 	?>
-	<form action="" method="post" enctype="multipart/form-data">
+	<form action="" method="post" >
 		<table>
 			<tr>
 				<td>Lớp :</td>

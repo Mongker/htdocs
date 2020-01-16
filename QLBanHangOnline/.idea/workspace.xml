@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e45ff85-aa62-47c8-82f6-4a026711f6be" name="Default Changelist" comment="" />
+    <list default="true" id="2e45ff85-aa62-47c8-82f6-4a026711f6be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bt_bootstrap/danhsach.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/dskhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/dskhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/dslop.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/dslop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/dssv.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/dssv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/suakhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/suakhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/themkhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/themkhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/themlop.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/themlop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/themsv.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/themsv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/timkiemkhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/timkiemkhoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/uploadanh.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/uploadanh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/xoalop.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/xoalop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/xoanhieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/xoanhieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/xulykhoa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qlsv/xulykhoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/../qlsv/xulykhoa.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +31,14 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1T7QU0sjfPTce6uYGGcmaJgKv8V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ql_sinhvien" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebBanHang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +70,8 @@
       <updated>1572808666220</updated>
       <workItem from="1572808669966" duration="5061000" />
       <workItem from="1573067556091" duration="60000" />
+      <workItem from="1578490942813" duration="32000" />
+      <workItem from="1578493024601" duration="15000" />
     </task>
     <servers />
   </component>
